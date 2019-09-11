@@ -19,12 +19,17 @@ pip install -r requirements.txt
 
 ## Current behavior:
 
-Executing ``python ise_ne_api.py`` will give you:
+Executing ``python iso_ne_api.py`` will give you:
 
 ```
-Current Fuel Mix
-Timestamp:  a minute ago
-Mw Distribution {'Coal': 51, 'Hydro': 439, 'Natural Gas': 8493, 'Nuclear': 3297, 'Other': 12, 'Renewables': 1222}
-Renewables: 0.09%
+# Pricing Info
+  Timestamp: 3 minutes ago
+  Energy, Congestion, Loss: 22.29 0 0.09
+  Total Price: 22.38
+
+# Current Fuel Mix
+  Timestamp: 4 minutes ago
+  Mw Distribution {'Coal': 51, 'Hydro': 319, 'Natural Gas': 8404, 'Nuclear': 3297, 'Other': 12, 'Renewables': 1234}
+  Renewables: 0.09%
 ```
 
