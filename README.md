@@ -17,6 +17,8 @@ I'm using Python 3.7 on my Mac in a virtualenv "virtual environment". It will be
 pip install -r requirements.txt
 ```
 
+Here's a page from the "Hitchhiker's Guide to Python" which discusses virtualenv: [https://docs.python-guide.org/dev/virtualenvs/](https://docs.python-guide.org/dev/virtualenvs/).
+
 ## Current behavior:
 
 Executing ``python iso_ne_api.py`` will give you:
